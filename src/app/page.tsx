@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -18,6 +19,11 @@ export default function Home() {
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
+          <li>
+            <Link href="/slider" className={styles.secondary} style={{ display: 'inline-block', marginTop: '10px' }}>
+              View Infinite Card Slider
+            </Link>
+          </li>
         </ol>
 
         <div className={styles.ctas}>

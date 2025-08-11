@@ -1,0 +1,57 @@
+/* Custom styles for the slider */
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-card {
+  will-change: transform;
+  user-select: none;
+}
+
+.slider-card.active {
+  cursor: grab;
+}
+
+.slider-card.active:active {
+  cursor: grabbing;
+}
+
+.slider-card.adjacent {
+  pointer-events: none;
+}
+
+.slider-card.hidden {
+  pointer-events: none;
+}
+
+/* Dot navigation styles */
+.dots-container {
+  margin-top: 20px;
+}
+
+.dot {
+  transition: transform 0.2s ease;
+}
+
+.dot.active {
+  transform: scale(1.3);
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .slider-card {
+    width: 90% !important;
+  }
+}

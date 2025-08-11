@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Infinite Card Slider
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) featuring an interactive infinite card slider component.
 
 ## Getting Started
 
@@ -29,8 +31,37 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Slider Features
+
+The infinite card slider includes the following features:
+
+- Infinite scrolling through cards
+- Smooth transitions with CSS animations
+- Dot navigation for direct card selection
+- Clear visual indicators for previous and next cards
+- Direction arrows for intuitive navigation
+- Responsive design that works on various screen sizes
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## GitHub Deployment
+
+To push this project to GitHub, follow these steps:
+
+1. Create a new repository on GitHub
+2. Initialize the local repository and add your GitHub repository as remote:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git push -u origin main
+```
+
+The `.gitignore` file has been configured to exclude unnecessary files and directories from being pushed to GitHub, ensuring a clean repository.
